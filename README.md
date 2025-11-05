@@ -15,13 +15,13 @@ IoT project for automatic plant watering using ESP8266, Blynk platform, and a mo
 - LCD I2C (0x27): **SDA=D2**, **SCL=D1**
 
 ## Setup
-1. Copy `PlantWateringSystem/secrets.h.template` to `secrets.h` and fill your **Blynk token**, **Wi-Fi SSID/PASS**.
-2. Open `PlantWateringSystem.ino` in Arduino IDE and upload.
-3. In Blynk app create widgets:
+1. Open `Irrigation-system.ino` in Arduino IDE and upload.
+2. In Blynk app create widgets:
    - Gauge **V0**
    - Button **V1** (Manual)
    - Switch **V2** (Auto)
    - Slider **V3** (0–100, threshold)
+3. Fill your **Blynk token**, **Wi-Fi SSID/PASS**.
 
 ## Safety
 Pump turns off automatically after 10 minutes of continuous run and resets V1/V2 to OFF.
