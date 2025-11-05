@@ -9,6 +9,7 @@ IoT project for automatic plant watering using ESP8266, Blynk platform, and a mo
 - Blynk virtual pins: V0 (moisture %), V1 (Manual), V2 (Auto), V3 (Threshold)
 
 ## Hardware
+![image alt](https://github.com/saritsadee-sriwises/ESP8266-Blynk-Irrigation-system/blob/main/hardware.png?raw=true)
 - ESP8266 (NodeMCU)
 - Soil moisture sensor → **A0**
 - Relay (active-LOW) → **D5** (pump)
